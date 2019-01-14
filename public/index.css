@@ -1,3 +1,38 @@
-.header {
+.header.title {
   text-align: center;
+  color: darkorange !important;
+  /* font-family: 'Nunito', sans-serif !important; */
+  font-family: 'Courgette', cursive !important;
+  font-size: 3rem !important;
 }
+
+hr {
+  margin-bottom: 2rem;
+}
+
+.ui.center {
+  font-family: 'Nunito', sans-serif;
+}
+
+.ui.segment:last-child {
+  margin-top: 1.4rem;
+}
+
+.ui.feed {
+  height: 29rem !important;
+}
+
+.ui.primary.button {
+  background-color: darkorange !important;
+}
+
+.ui.primary.button:hover {
+  background-color: #61ccd8 !important;
+  transition: .2s ease;
+}
+
+.icon.user:before {
+  color: #61ccd8 !important;
+}
+
+
